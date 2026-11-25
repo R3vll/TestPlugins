@@ -43,6 +43,9 @@ subprojects {
     }
 
     android {
+        sourceSets.getByName("main").java.srcDir(
+            rootProject.file("core/src/main/kotlin")
+        )
         namespace = "com.example"
 
         defaultConfig {
