@@ -1,0 +1,8 @@
+{
+  "name": "Vega Ports by R3vll",
+  "description": "Native CloudStream ports of authorized Vega providers",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/R3vll/TestPlugins/builds/plugins.json"
+  ]
+}
