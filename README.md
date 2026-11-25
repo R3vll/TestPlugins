@@ -67,4 +67,4 @@ Framework only: all entries in `providers.yaml` are currently `blocked`; no port
 - `core/src/main/kotlin/com/r3vll/vegaport` contains Vega `Stream` → CloudStream `ExtractorLink` / `SubtitleFile` mapping helpers. These sources are injected into every plugin module.
 - Future ports are each their own Gradle module with a `MainAPI` subclass. The MVP implements `search()`, `load()`, and `loadLinks()`.
 - CI runs `:core:test`, builds all modules, and publishes `.cs3` files plus `plugins.json` to the `builds` branch.
-- Add this repository to CloudStream using the raw GitHub URL of `repository.json` on `main`.
+- Add this repository to CloudStream using `https://raw.githubusercontent.com/R3vll/TestPlugins/main/repository.json`.
