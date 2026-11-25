@@ -1,0 +1,277 @@
+providers:
+  - id: vega
+    display_name: VMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: autoEmbed
+    display_name: MultiStream
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: drive
+    display_name: MoviesDrive
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: multi
+    display_name: MultiMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: 4khdhub
+    display_name: 4khdHub
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: 1cinevood
+    display_name: Cinewood
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: world4u
+    display_name: World4uFree
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: katmovies
+    display_name: KatMoviesHd
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: mod
+    display_name: MoviesMod
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: uhd
+    display_name: UHDMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: protonMovies
+    display_name: ProtonMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: cinemaLuxe
+    display_name: CinemaLuxe
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: filmyfly
+    display_name: FilmyFly
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: movieBox
+    display_name: MovieBox App
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: movieBoxWeb
+    display_name: MovieBox Web
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: gokuHD
+    display_name: GokuHD
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: dramacool
+    display_name: DramaCool
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: mkvDrama
+    display_name: MKVDrama
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: eonMovies
+    display_name: EonMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: movies4u
+    display_name: Movies4U
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: kmMovies
+    display_name: KmMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: zeefliz
+    display_name: Zeefliz
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: katMovieFix
+    display_name: KatMovieFix
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: ringz
+    display_name: Ringz
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: netflixMirror
+    display_name: NetflixMirror
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: primeMirror
+    display_name: PrimeMirror
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: disneyMirror
+    display_name: DisneyMirror
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: hdhub4u
+    display_name: HdHub4u
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: ogomovies
+    display_name: Ogomovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: a111477
+    display_name: A.111477
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: vadapav
+    display_name: VadaPav
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: moviesApi
+    display_name: MoviesApi
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: moviezwap
+    display_name: MoviezWap
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: showbox
+    display_name: ShowBox
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: ridoMovies
+    display_name: RidoMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: flixhq
+    display_name: FlixHQ
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: primewire
+    display_name: Primewire
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: hiAnime
+    display_name: HiAnime
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: animetsu
+    display_name: Animetsu
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: tokyoInsider
+    display_name: TokyoInsider
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: kissKh
+    display_name: KissKh
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: dooflix
+    display_name: Dooflix
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: luxMovies
+    display_name: RogMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: topmovies
+    display_name: TopMovies
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: guardahd
+    display_name: GuardaHD
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: skyMovieHD
+    display_name: SkyMovieHD
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: Joya9tv
+    display_name: Joya9tv
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: uniquestream
+    display_name: AnimeStream
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: torrentio
+    display_name: Torrentio
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: cinefreak
+    display_name: CineFreak
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: anikoto
+    display_name: Anikoto
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: kickAssAnime
+    display_name: KickAssAnime
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: animesub
+    display_name: AnimeSub+
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: everything
+    display_name: Everything
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: castle
+    display_name: Castle TV
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: animesalt
+    display_name: AnimeSalt
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: animeworld
+    display_name: AnimeWorld
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: movielinkdb
+    display_name: MovieLinkBD
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: mxplayer
+    display_name: MX Player
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: youtube
+    display_name: YouTube
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: kartoons
+    display_name: Kartoons
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: 1flex
+    display_name: 1Flex
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: internetArchive
+    display_name: Internet Archive
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: rareanimes
+    display_name: Rareanimes
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: durbinLive
+    display_name: DurbinLive
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: liveTgTv
+    display_name: LiveTG TV
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: aniDream
+    display_name: AniDream
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: extraflix
+    display_name: ExtraFlix
+    status: blocked
+    reason: Not yet reviewed against authorization policy
+  - id: kartoons2
+    display_name: Kartoons2
+    status: blocked
+    reason: Not yet reviewed against authorization policy
