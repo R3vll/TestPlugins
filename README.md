@@ -56,3 +56,15 @@ Everything in this repo is released into the public domain. You may use it howev
 
 This template as well as the gradle plugin and the whole plugin system is **heavily** based on [Aliucord](https://github.com/Aliucord).
 *Go use it, it's a great mobile discord client mod!*
+
+## Vega provider port framework
+
+This fork is the build home for native CloudStream ports of authorized Vega providers.
+
+Framework only: all entries in `providers.yaml` are currently `blocked`; no ports exist yet. `ported` is a policy label, not enforced by the build.
+
+- `providers.yaml` is the scope registry. A provider must be marked `ported` before a Gradle module is created for it.
+- `core/src/main/kotlin/com/r3vll/vegaport` contains Vega `Stream` → CloudStream `ExtractorLink` / `SubtitleFile` mapping helpers. These sources are injected into every plugin module.
+- Future ports are each their own Gradle module with a `MainAPI` subclass. The MVP implements `search()`, `load()`, and `loadLinks()`.
+- CI runs `:core:test`, builds all modules, and publishes `.cs3` files plus `plugins.json` to the `builds` branch.
+- Add this repository to CloudStream using the raw GitHub URL of `repository.json` on `main`.
