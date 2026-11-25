@@ -40,6 +40,12 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
 
+      - name: Test core mapping helpers
+        run: |
+          cd $GITHUB_WORKSPACE/src
+          chmod +x gradlew
+          ./gradlew :core:test
+
       - name: Build Plugins
         run: |
           cd $GITHUB_WORKSPACE/src
