@@ -23,8 +23,11 @@ Target repository: `https://github.com/R3vll/TestPlugins` (fork of
 - Only providers that retrieve public or authorized content will be ported.
   Providers whose primary purpose is unauthorized access to copyrighted media
   are marked `blocked` in `providers.yaml` and are not implemented.
-- Work proceeds as a two-provider pilot (YouTube, Internet Archive), then
-  expands to the remaining authorized providers.
+- This spec's first implementation plan covers the framework only: repository
+  setup, core mapping utilities and tests, `providers.yaml`, CI, and
+  `repository.json`. YouTube and Internet Archive already exist upstream in
+  `recloudstream/extensions`, so they are not recreated. Individual provider
+  ports are handled in follow-up plans once authorized providers are nominated.
 
 ## Approach
 
@@ -66,7 +69,7 @@ and CI-generated `plugins.json`. Alternatives considered and rejected:
 | `getSearchPosts(query, page)` | `search(query)` -> `SearchResponse` | Implement |
 | `getMeta(link)` | `load(url)` -> `MovieLoadResponse` / `TvSeriesLoadResponse` | Implement |
 | `getEpisodes(url)` | episode list built inside `load()` | Implement |
-| `getStream(link, type)` | `loadLinks()` -> `ExtractorLink` + `SubtitleLink` | Implement |
+| `getStream(link, type)` | `loadLinks()` -> `ExtractorLink` + `SubtitleFile` | Implement |
 | `catalog.ts` / `getPosts(filter, page)` | `mainPageOf(...)` + `getMainPage()` | Skip |
 | `settings.ts` / `kvStore` | CloudStream plugin settings | Skip |
 | `openWebView` WAF solving | no plugin API equivalent | Skip |
@@ -74,7 +77,7 @@ and CI-generated `plugins.json`. Alternatives considered and rejected:
 
 Field mapping: Vega `Stream.server/link/type/quality/subtitles` become
 `ExtractorLink(name, url, quality, ExtractorLinkType.M3U8/VIDEO, source)` and
-`SubtitleLink`. Vega `getBaseUrl` mirror resolution becomes a cached Kotlin
+`SubtitleFile`. Vega `getBaseUrl` mirror resolution becomes a cached Kotlin
 helper using NiceHttp.
 
 Error handling: Vega providers often catch errors and return empty arrays;
